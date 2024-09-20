@@ -53,8 +53,8 @@ Wenn alles funktioniert hat, sollte die Website so aussehen:
 ---
 Wenn du die **ARM64** version von [Docker Desktop](https://www.docker.com/products/docker-desktop/) heruntergeladen hast und diese nicht funktioniert, probiere folgendes:
 
-- Wenn du einen **AMD-Chip** hast installiere die [AMD64 Version](https://www.docker.com/products/docker-desktop/)
-- Wenn du einen **Intel-Chip** hast installiere die [Docker Desktop for Windows - x86_64](https://docs.docker.com/desktop/install/windows-install/) von Docker Docs
+- Wenn du einen **AMD-Chip** hast, installiere die [AMD64 Version](https://www.docker.com/products/docker-desktop/)
+- Wenn du einen **Intel-Chip** hast, installiere die [Docker Desktop for Windows - x86_64](https://docs.docker.com/desktop/install/windows-install/) von Docker Docs
 
 Um zu testen ob Docker richtig funktioniert kannst du in einem Terminal ```docker run hello-world``` eingeben.
 
