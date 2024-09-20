@@ -14,6 +14,7 @@ Du hast jetzt deine GitHub-Repository lokal auf dein Gerät kopiert.
 ### Docker-Konfiguration und -Installation
 
 - Installiere [Docker Desktop](https://www.docker.com/products/docker-desktop/) (achte auf die richtige Version)
+- Bei Problemen folge der Anleitung auf [Docker Docs](https://docs.docker.com/desktop/install/windows-install/)
 
  Achte darauf, dass du die richtige Version für dein Gerät herunterlädst.
 
@@ -36,7 +37,7 @@ Gib die folgenden Sachen ein:
 
 - Mit dem Befehl ```docker compose up --build``` startet man dann das
 Programm in dem erstellten Docker-Container.
-- Öffne einen beliebigen Browser und gebe [localhost:3000](http://localhost:3000/) ein.
+- Öffne einen beliebigen Browser und gebe ```localhost:3000``` ein.
 
 </br>
 
