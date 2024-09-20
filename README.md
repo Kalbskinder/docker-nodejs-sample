@@ -48,4 +48,22 @@ Wenn alles funktioniert hat, sollte die Website so aussehen:
 
 </br>
 
+### Mögliche Fehler
+
+---
+Wenn du die **ARM64** version von [Docker Desktop](https://www.docker.com/products/docker-desktop/) heruntergeladen hast und diese nicht funktioniert, probiere folgendes:
+
+- Wenn du einen **AMD-Chip** hast installiere die [AMD64 Version](https://www.docker.com/products/docker-desktop/)
+- Wenn du einen **Intel-Chip** hast installiere die [Docker Desktop for Windows - x86_64](https://docs.docker.com/desktop/install/windows-install/) von Docker Docs
+
+Um zu testen ob Docker richtig funktioniert kannst du in einem Terminal ```docker run hello-world``` eingeben.
+
+---
+
+Wenn nach ```docker init``` ein Fehler mit dem ```package.json``` auftritt, ist eine mögliche Lösung in der ```package.json``` Datei unter ```dependencies{}```, ```"sqlite3": "^5.1.2",``` zu ```"sqlite3": "^5.0.0",``` zu ändern.
+
+Wenn das immer noch nicht funktioniert hat, kannst du noch folgenden Befehl probieren: ```docker compose up --build --force-recreate``` Der Befehl sorgt dafür, dass alle Pakete wirklich installiert werden, da es vorkommen kann, dass beim **Installieren der Pakete**, welche übersprungen werden, die länger dauern.
+
+---
+
 Viel Spass beim Ausprobieren!
