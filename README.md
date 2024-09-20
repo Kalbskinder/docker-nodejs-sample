@@ -37,7 +37,7 @@ Gib die folgenden Sachen ein:
 
 - Mit dem Befehl ```docker compose up --build``` startet man dann das
 Programm in dem erstellten Docker-Container.
-- Öffne einen beliebigen Browser und gebe ```localhost:3000``` ein.
+- Öffne einen beliebigen Browser und gebe [localhost:3000](http://localhost:3000/) ein.
 
 </br>
 
