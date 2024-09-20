@@ -40,7 +40,7 @@ Programm in dem erstellten Docker-Container.
 
 </br>
 
-Wenn alles funktioniert hat sollte die Website so aussehen:
+Wenn alles funktioniert hat, sollte die Website so aussehen:
 ![ToDo Applikation im Browser](todo_app.png)
 
 - Mit ```docker compose down``` hält man das Programm wieder an.
